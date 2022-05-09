@@ -1,7 +1,7 @@
 # INDE
 
 ## 🚀 About Me
-My name is Aditi Rao👩‍💻. I have completed Mechatronics engineering and currently pursing Industrial engineering in Rice University. In thsi repository I am implementing Machine learning algorithms in data set called Taxis.csv.    
+My name is Aditi Rao👩‍💻. I have completed Mechatronics engineering and currently pursing Industrial engineering in Rice University. In this repository I am implementing Machine learning algorithms in data set called Taxis.csv.    
 
  ## 🔗 Links
 Inspiration and guidance from Dr Randy Davila, PhD
