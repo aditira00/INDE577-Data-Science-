@@ -8,6 +8,8 @@
 Yes! Lets take humans in Titanic; the women and children were the first to let off when the ship started sinking. This is a decision which effects the survival rate. This decision for females and under 15 humans grants them a higher chance of survival than Males.  
 
 ![image](https://annalyzin.files.wordpress.com/2016/07/decision-trees-example-multiple-categories-tutorial2.png)
+
+
 In a Decision tree, there are two nodes, which are the Decision Node and Leaf Node. Decision nodes are used to make any decision and have multiple branches, whereas Leaf nodes are the output of those decisions and do not contain any further branches.
 
 Decision Tree always have questions which answer in Binary: Like Yes and No or 1 and 0.
