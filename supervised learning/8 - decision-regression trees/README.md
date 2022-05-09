@@ -3,9 +3,10 @@
 
  🧔 Darwin's theory: “survival of the fittest” states that the one who evolve and fitter than other species servive. But werent we studying Decision Tree ?
 
+Yes! Lets take humans in Titanic; the women and children were the first to let off when the ship started sinking. This is a decision which effects the survival rate. This decision for females and under 15 humans grants them a higher chance of survival than Males.  
+
 ![image](https://media3.giphy.com/media/3orif0iFlJKUTgNYD6/200.gif)
 
-Yes! Lets take humans in Titanic; the women and children were the first to let off when the ship started sinking. This is a decision which effects the survival rate. This decision for females and under 15 humans grants them a higher chance of survival than Males.  
 
 ![image](https://annalyzin.files.wordpress.com/2016/07/decision-trees-example-multiple-categories-tutorial2.png)
 
