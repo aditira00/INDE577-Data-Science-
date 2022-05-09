@@ -20,6 +20,9 @@ A hyperplane is a decision boundary that differentiates the two classes in SVM. 
 There are two types of Margin:
 
 Soft Margin:
+
+
+
 ![image](https://media.cheggcdn.com/media%2F41c%2F41c5b301-57d7-4056-a959-a4660ba8a205%2Fphp10KXpi.png)
 
 Hard Margin, aka Hyperplane: 
