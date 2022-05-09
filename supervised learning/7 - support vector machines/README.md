@@ -4,7 +4,7 @@
  Support Vector Machines are machine learning algorithms that are used for classification and regression purposes. SVMs are one of the powerful machine learning algorithms for classification, regression and outlier detection purposes. An SVM classifier builds a model that assigns new data points to one of the given categories. Thus, it can be viewed as a non-probabilistic binary linear classifier.
 
 
-![image](https://vatsalparsaniya.github.io/ML_Knowledge/_images/gif.gif)
+![image](https://miro.medium.com/max/848/1*VF_oqrRmgVdtAizny5T3-A.gif)
 
 
 
