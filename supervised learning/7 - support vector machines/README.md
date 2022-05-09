@@ -27,7 +27,6 @@ A hyperplane is a decision boundary that differentiates the two classes in SVM. 
 
 ![image](https://miro.medium.com/max/1280/1*H2QEWsP9-W4rBdIaxfVExg.jpeg)
 
-
 - Support Vectors:
 Support vectors are datapoints closer to the hyperplate that influence the position and orientation of the hyperplane - we can use these support vectors to maximize the margin of the classifier. Deleting them changes the position of the hyperplane.
 Using Update weight function in step 1:
