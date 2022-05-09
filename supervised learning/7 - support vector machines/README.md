@@ -51,10 +51,7 @@ Step 5:
 
 - Kernel trick:
 
-
-![image](https://miro.medium.com/max/640/1*PWC9quSJOXmGlEKWoNiUAA.gif)
-
-The kernel trick provides a solution to this problem. The “trick” is that kernel methods represent the data only through a set of pairwise similarity comparisons between the original data observations x (with the original coordinates in the lower dimensional space), instead of explicitly applying the transformations ϕ(x) and representing the data by these transformed coordinates in the higher dimensional feature space.
+The “trick” is that kernel methods represent the data only through a set of pairwise similarity comparisons between the original data observations x (with the original coordinates in the lower dimensional space), instead of explicitly applying the transformations ϕ(x) and representing the data by these transformed coordinates in the higher dimensional feature space.
 
 In 1-dimension, this data is not linearly separable, but after applying the transformation ϕ(x) = x² and adding this second dimension to our feature space, the classes become linearly separable.
 ## Reference
