@@ -1,48 +1,55 @@
-# Perceptron
 
-![image](https://qph.fs.quoracdn.net/main-qimg-903a35d8c93d2009fea2118c37a69f13-pjlq)
+# PERCEPTRON
 
-The [Perceptron](https://en.wikipedia.org/wiki/Perceptron) is a supervised, single layer neural network binary linear classifier. Simply, it can be thought of as a mathematical model that draws a boundary to separate two groups in space. It was developed by Frank Rosenblatt in 195y at the Corenll Aeronautical Laboratory, funded by the United States Office of Naval Research. Single-layer perceptrons can be combined together into a [Multi-Layer Perceptron (MLP)](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/4%20-%20neural%20networks)
-- Linear classifier: training data should be classified into corresponding categories (i.e. if there are two categories, all the training data must lie in those two categories)
-- Binary classifier: defines that there should only be two categories
+A Perceptron is an algorithm for supervised learning of binary classifiers. The algorithm is inspired by the way neurons work together in the brain, the perceptron is a single-layer neural network.
 
-Perceptrons are trained in three phases:
+Each neuron takes inputs, weighs them separately, sums them up and passes this sum through a nonlinear function to produce output.
+Numerous amount of inputs are separately weighted. Every neuron is connected to another neuron via connection link.
 
-**1. Data Processing**
 
-  As a binary classifier, perceptrons are meant to classify input into two groups: yes/no, black/white, up/down, etc, corresponding to 1/0 or 1/-1 outputs (depending on the selected activation function). To prepare data, we must first determine the two output groups and classify data in numerical terms, at which point the data will be in a format that will allow the perceptron to be trained. 
-  
-**2. Predict Results**
+![image](https://thumbs.gfycat.com/InfamousOfficialBlackbird-max-1mb.gif)
 
-![image](https://cdn.analyticsvidhya.com/wp-content/uploads/2020/02/13UpdymQx-C1tBKRnfD7eOg.gif)
 
-The perceptron learning rule states that the algorithm would automatically learn the optimal weight coefficients. The input features are then multiplied with these weights in a weighted sum to determine if the neuron "fires" or not (returns 1 if positive, 0 otherwise, or 1 and -1).
 
-![image](https://user-images.githubusercontent.com/89811204/146212310-d319e5d3-7cf9-4ef6-9525-7114c1f8db4c.png)
+## Algorithm 👩‍💻
 
-In the equation above:
-- w: vector of real valued weights
-- b: bias (an element that adjusts the boundary away from the origin without any dependence on the input value
-- x: vector of input values
+Linear classifier: training data should be classified into corresponding categories (i.e. if there are two categories, all the training data must lie in those two categories)
 
-![image](https://user-images.githubusercontent.com/89811204/146212640-e65cef67-2d62-4d45-9245-3239cde4d8c6.png)
+Binary classifier: defines that there should only be two categories(( 1 and 0) or(-1 and 1) etc)
 
-- m: number of inputs to the percpetron
 
-![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Perceptron/Perceptron_17.jpg)
 
-Choose an activation function
+There are three phases to achieve perceptron (single neuron network )
+However I am going to use five to elaborate on those three phases in coding.
+Phase 1
+1. Data Processing
 
-![image](https://www.simplilearn.com/ice9/free_resources_article_thumb/Perceptron/Perceptron_9.jpg)
+As a binary classifier, perceptrons are meant to classify input into two groups: yes/no, gas/diesel , sun/moon, etc, corresponding to 1/0 or 1/-1 outputs (depending on the selected activation function). To prepare data, we must first determine the two output groups and classify data in numerical terms, at which point the data will be in a format that will allow the perceptron to be trained.
 
-- [Heaviside step function](https://en.wikipedia.org/wiki/Heaviside_step_function): triggered above a certain value of neuron output; otherwise it outputs zero
-- Sign function: outputs +1 or -1 depending whether the neuron output is greater than 0 or not
-- Sigmoid: S-curve that outputs a value between 0 and 1 (using [Logistic Regression](https://github.com/Madison-Bunting/INDE-577/tree/main/supervised%20learning/2%20-%20logistic%20regression))
 
-**3. Update Weights**
 
-The goal is to reduce the number of misclassified points, so by iterating through the algorithm, the separation line moves in space and after a few epochs, the algorithm classifies it correctly.
+2. Classification of X and Y constriants 
 
-In the Perceptron learnning rule, predicted output is compared with known output; if they do not match, error is propagated backward to allow weight adjustment to happen
+Here, X is defined as identifying whether the car uses gas or diesel fuel type. 
+    Through "compressionratio" and "horsepower" which is our Y here.
 
-The above information was based on [this article](https://www.simplilearn.com/ice9/free_resources_article_thumb/Perceptron/Perceptron_36.jpg), which can be referenced for further reading.
+
+
+3. Activation Functions
+Choosing the Activation Functions
+The activation function is how the input data will be interpreted. The activation function associated with the perceptron is the sign activation function, which classifies any output less than 0 as -1, and any output greater than or equal to 0 as 1. This is very similar to the binary step activation function.
+
+4. Weights 
+
+!
+![image](https://pabloinsente.github.io/assets/post-6/linear-function-adaline.png)
+
+The output can be represented as “1” or “0.”  It can also be represented as “1” or “-1” depending on which activation function is used.
+
+5. Update Weights 
+
+By iterating through the algorithm, the separation line moves in space and after a few epochs (which in our case is 1000), the algorithm classifies it correctly.
+
+In the Perceptron learnning rule, predicted output is compared with known output; if they do not match, error is propagated backward to allow weight adjustment to happen.
+
+
