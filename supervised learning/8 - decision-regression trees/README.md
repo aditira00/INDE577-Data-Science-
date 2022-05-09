@@ -36,9 +36,6 @@ A decision tree algorithm always tries to maximize the value of information gain
 Information Gain= Entropy(S)- [(Weighted Avg) *Entropy(each feature)  
 
 
-![image](https://annalyzin.files.wordpress.com/2016/07/decision-tree-tutorial-animated3.gif?w=636&h=312&crop=1&zoom=2)
-
-
 2. Gini Index:
 Gini index is a measure of impurity or purity used while creating a decision tree in the CART(Classification and Regression Tree) algorithm.
 An attribute with the low Gini index should be preferred as compared to the high Gini index.
