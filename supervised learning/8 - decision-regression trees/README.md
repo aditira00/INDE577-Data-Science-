@@ -51,10 +51,6 @@ Pruning is a process of deleting the unnecessary nodes from a tree in order to g
 A too-large tree increases the risk of overfitting (forcefully trying to fit into a class), and a small tree may not capture all the important features of the dataset. Therefore, a technique that decreases the size of the learning tree without reducing accuracy is known as Pruning.
 
 
-![image](http://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2015/01/Decision_blog_animation_01-1.gif)
-
-
-
 
 ## Reference
 
