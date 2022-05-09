@@ -1,7 +1,7 @@
 
 # Decision Regression Tree
 
- 🧔 Darwin's theory: “survival of the fittest” states that the one who evoloves and fitter than other species servive. But werent we studying Decision Tree ?
+ 🧔 Darwin's theory: “survival of the fittest” states that the one who evolve and fitter than other species servive. But werent we studying Decision Tree ?
 
 ![image](https://media3.giphy.com/media/3orif0iFlJKUTgNYD6/200.gif)
 
