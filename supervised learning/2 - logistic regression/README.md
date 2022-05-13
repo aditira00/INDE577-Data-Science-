@@ -10,7 +10,7 @@ A logistic approach fits best when the task that the machine is learning is base
 Although, the dependent variable can be binary, multinomial, or ordinal
 It is similar to Linear Regression, but it results in a more complex function, the sigmoid function.
 
-![image](https://miro.medium.com/max/1400/1*IYG4hy6twSajfumAhc1bnQ.gif )
+![image](gif.gif)
 
 **Sigmoid Function** :
 ![image](https://miro.medium.com/max/484/1*-XcDnVV0LLpV5XyZ2fqcig.gif)
