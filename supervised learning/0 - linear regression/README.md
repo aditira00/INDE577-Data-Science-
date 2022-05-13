@@ -23,11 +23,11 @@ The regression constant, a, is interpreted as the value of Y when X equals 0.
 
 Forms of linear regession are:
 
-linear model: a model that assumes a linear relationship between input variables (x) and a single output variable (y), with the goal of calculating y from a linear combination of the input variables (x)
+Linear model: a model that assumes a linear relationship between input variables (x) and a single output variable (y), with the goal of calculating y from a linear combination of the input variables (x)
 
-simple linear regression: When there is a single input variable (x)
+Simple linear regression: When there is a single input variable (x)
 
-multiple linear regression: When there are multiple input variables
+Multiple linear regression: When there are multiple input variables
 
 ![image](https://datatab.net/assets/tutorial/regression/Linear_Regression.png)
 
